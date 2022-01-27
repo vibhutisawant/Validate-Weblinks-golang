@@ -13,7 +13,6 @@ import (
 var wg sync.WaitGroup
 
 func main() {
-
 	now := time.Now()
 	//Crawl("https://www.ibm.com/community/z/open-source-software/", 1)
 	links, err := findLinks("https://www.ibm.com/community/z/open-source-software/")
