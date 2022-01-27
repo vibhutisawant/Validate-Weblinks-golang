@@ -16,7 +16,7 @@ func main() {
 
 	now := time.Now()
 	//Crawl("https://www.ibm.com/community/z/open-source-software/", 1)
-	links, err := findLinks("https://www.ibm.com/community/z/open-source-software")
+	links, err := findLinks("https://www.ibm.com/community/z/open-source-software/")
 	if err != nil {
 		fmt.Println("error occurred : ", err)
 	}
